@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: calculator-app
+    env: docker
+    region: oregon
+    plan: free
+    rootDir: CalculatorApp
+    dockerfilePath: CalculatorApp/Dockerfile
+    autoDeploy: true
